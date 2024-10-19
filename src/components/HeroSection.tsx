@@ -10,25 +10,26 @@ const HeroSection = () => {
   return (
     <div id='HeroSection' className='min-h-screen w-screen overflow-x-hidden flex items-center justify-center'>
 
-      {/* --- */}
+      {/* lefte */}
       <div className="relative  w-full bg-gradient-to-r flex items-center justify-center">
-        <Image width={350} height={100} src="/images/cube-in-left-large.png" alt="left-large"
-          className="absolute left-0 -top-5 object-cover animate-cube-float-large" />
+        <Image width={200} height={100} src="/images/cube-in-left-large.png" alt="left-large"
+          className="absolute left-0 top-5 object-cover animate-cube-float-large" />
 
         <Image width={300} height={100} src="/images/cube-in-left-medium.png" alt="left-medium"
-          className="absolute left-28 -top-20 object-cover animate-cube-float-medium" />
+          className="absolute left-28 top-14 object-cover animate-cube-float-medium" />
 
         <Image width={300} height={100} src="/images/cube-in-left-small.png" alt="left-small"
-          className="absolute left-28 top-22 object-cover animate-cube-float-small" />
+          className="absolute left-20 top-20 object-cover animate-cube-float-small" />
 
-        <Image width={500} height={500} src="/images/cube-in-right-large.png" alt="right-large"
-          className="absolute right-0 bottom-52 -z-0 object-cover animate-cube-float-large" />
+{/* right */}
+        <Image width={400} height={500} src="/images/cube-in-right-large.png" alt="right-large"
+          className="absolute -right-10 bottom-52 -z-0 object-cover animate-cube-float-large" />
 
-        <Image width={300} height={500} src="/images/cube-in-right-medium.png" alt="right-medium"
-          className="absolute right-0 bottom-52 object-cover animate-cube-float-medium" />
+        <Image width={200} height={500} src="/images/cube-in-right-medium.png" alt="right-medium"
+          className="absolute -right-10 bottom-52 object-cover animate-cube-float-medium" />
 
         <Image width={200} height={500} src="/images/cube-in-right-small.png" alt="right-small"
-          className="absolute right-48 top-1 z-10 object-cover animate-cube-float-small" />
+          className="absolute right-20 top-1 z-10 object-cover animate-cube-float-small" />
 
         {/* content */}
         <div id="HeroSection-content" className="w-[85%] mx-auto py-16">
