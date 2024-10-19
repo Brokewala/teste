@@ -12,7 +12,7 @@ const HeroSection = () => {
 
       {/* --- */}
       <div className="relative  w-full bg-gradient-to-r flex items-center justify-center">
-        <Image width={280} height={100} src="/images/cube-in-left-large.png" alt="left-large"
+        <Image width={300} height={100} src="/images/cube-in-left-large.png" alt="left-large"
           className="absolute left-0 top-5 object-cover animate-cube-float-large" />
 
         <Image width={260} height={100} src="/images/cube-in-left-medium.png" alt="left-medium"
