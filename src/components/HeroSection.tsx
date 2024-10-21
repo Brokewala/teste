@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="relative  w-full bg-gradient-to-r flex items-center justify-center">
         {/* left */}
         <img src="/images/cube-in-left-large.png" alt="left-large"
-          className="absolute -z-0 -left-20 md:-left-10 lg:-left-10 -top-16 md:top-0 lg:top-0  object-contain animate-cube-float-large w-[150px] md:w-[300px] lg:w-[400px] h-[259px] md:h-[300px] lg:h-[360px] " />
+          className="absolute -z-0 -left-20 md:-left-10 lg:-left-10 -top-16 md:top-0 lg:top-0  object-contain animate-cube-float-large w-[150px] md:w-[250px] lg:w-[400px] h-[259px] md:h-[300px] lg:h-[360px] " />
 
         <img src="/images/cube-in-left-medium.png" alt="left-medium"
           className="absolute -left-9 top-20 object-contain animate-cube-float-medium w-[180px] md:w-[300px] lg:w-[400px] h-[259px] md:h-[300px] lg:h-[360px] " />
